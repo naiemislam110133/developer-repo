@@ -9,8 +9,10 @@ h1{
 }
 p{
     font-weight: 900;
-}section{
+}
+    .flexable-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .width-half{
     width: 50%;
@@ -23,11 +25,24 @@ p{
 }
 .link-button{
     text-decoration: none;
-    background-color: orange;
+    background-image: linear-gradient(orange,red);
     border-radius: 5px;
     padding: 10px;
     color: whitesmoke;
     font-weight: 700;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 40px 10px gray;
+    padding: 30px;
+    margin-left: 5%;
+    border-radius: 10%;
+}
+.add-color{
+    color:red;
+}
+footer P{
+    text-align: center;
 }
 
 
